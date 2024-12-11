@@ -70,7 +70,7 @@ html, body {
     margin: 100px auto;
  	background: rgba(164, 229, 241, 0.733); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 2px solid #ffffff; /*--This is the white line around my work--*/
+	border: 2.5px solid rgb(255, 255, 255); /*--This is the white line around my work--*/
 	border-radius: 30px; /*--This adds a cleaner look--*/
 
 	/* This is my fade in code */
@@ -121,11 +121,11 @@ font-style: normal;
 
 h2 {
 	 font-family: "ivypresto-headline", serif;
-	 font-weight: 400;
-	 font-style: italic;  
-	 font-size: 1.5em;
-	 line-height: 1.4;
-	 color: #fff;
+	 font-weight: 600;
+	 font-style: normal;
+		 font-size: 1.5em;
+		 margin: 10px auto 10px auto;
+		 color: #ffff;
 	 padding: 0px 0px;
 	 margin: 0px auto 25px auto;
 }
@@ -136,7 +136,7 @@ p {
 	font-style: italic;
 	font-size: 1.5em;
 	line-height: 1.6;
-	color: #ffff;
+	color: rgb(255, 255, 255);
 }
     nav{
 		font-family: "turnip", serif;
@@ -154,23 +154,24 @@ p {
 
 	nav li{
 		display: inline;
+		border: solid rgb(17, 135, 64);
+		border-width: 3px 0;
+		padding: 5px;
+		/*-- border-radius: 3px; --*/ 
 	}
-
+	
 	nav a{
-		display: inline-bock;
-		padding: 10px;
-
+		display: inline-block;
 	}
-
 	a{ 
-		color: #000000;
+		color: rgb(48, 130, 188);
 		text-decoration: none;
 		font-weight: bold;
 	}
     
 	a:hover{
 		/* color:rgb(0, 0, 0); */
-		color:rgb(2, 108, 18);
+		color:rgb(13, 91, 147);
 		/* background-color: rgb(173, 230, 182); */
 		font-size: 21px; /*--this is for responsiveness--*/
 	}
